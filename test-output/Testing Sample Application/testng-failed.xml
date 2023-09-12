@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Sample Application]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="test.com.traceFleet.DashboardTest">
+        <methods>
+          <include name="loginWithValidCredentials"/>
+          <include name="allCountryList"/>
+          <include name="setupClass"/>
+          <include name="teardown"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- test.com.traceFleet.DashboardTest -->
+      <class name="test.com.traceFleet.LoginTest">
+        <methods>
+          <include name="wrongEmailTest"/>
+          <include name="loginWithValidCredentials"/>
+          <include name="setupClass"/>
+          <include name="wrongEmailPasswordTest"/>
+          <include name="forgotPasswordLinkTest"/>
+          <include name="setupTest"/>
+          <include name="teardown"/>
+          <include name="backToSignInLinkTest"/>
+          <include name="wrongPasswordTest"/>
+        </methods>
+      </class> <!-- test.com.traceFleet.LoginTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Sample Application] -->

@@ -1,0 +1,12 @@
+[
+  {
+    "users":{
+      "username":"xxx@mail.com",
+      "password":"xxxxxxx",
+    }
+    "browsers" :{
+    	"browsername" : "firefox",
+    }
+  	}
+
+  ]
