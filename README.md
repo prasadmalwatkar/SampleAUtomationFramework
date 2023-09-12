@@ -1,6 +1,6 @@
-# Project Title
+# Sample Web Automation Project 
 
-Sample Web Automation Project 
+
 
 ## Description
 
