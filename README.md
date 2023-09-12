@@ -1,1 +1,1 @@
-# SampleAUtomationFramework
+# SampleAutomationFramework
